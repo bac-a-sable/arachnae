@@ -1,0 +1,23 @@
+# Jekyll settings
+#
+title: ARACHNAE
+email: your-email@domain.com
+description: > # this means to ignore newlines until "baseurl:"
+  Un petit test de présentation de photographies agrémentées de quelques textes, au moyen du framework HTML5 Webslides.js
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "http://www.bac-a-sable.eu" # the base hostname & protocol for your site, e.g. http://example.com
+twitter_username: jekyllrb
+github_username:  jekyll
+nav_direction: vertical # vertical, horizontal 
+image_dir: "assets/images"
+sound_source: ""
+collections:
+    - sections
+# Build settings
+markdown: kramdown
+plugins:
+  - jekyll-feed
+exclude:
+  - Gemfile
+  - Gemfile.lock
+

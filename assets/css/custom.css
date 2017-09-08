@@ -1,0 +1,42 @@
+.flexblock li h2 svg,.flexblock li h3 svg {margin-top: 0;
+      }
+      
+h1, h2 {  font-family: 'Indie Flower', cursive;}
+h1 {
+    font-size: 4rem;
+    line-height: 5.6rem;}
+
+
+/*-- cartel dérivé de fadeIn -- */
+@-webkit-keyframes cartel {
+    from {
+      opacity: 0; }
+    to {
+      opacity: 1; } }
+  @keyframes cartel {
+    0% {
+      opacity: 0;
+    }
+      
+    50% {
+      opacity: 0;
+    }
+      
+    100% {
+      opacity: 1;
+    }
+  }
+  
+  .cartel {
+    -webkit-animation: cartel 1s;
+            animation: cartel 1s; 
+    font-size: 0.9em;    }
+  
+  
+  /* Duration */
+  .slow {
+    -webkit-animation-duration: 6s;
+            animation-duration: 6s; }
+  .slow + .slow {
+    -webkit-animation-duration: 8s;
+            animation-duration: 8s; }
