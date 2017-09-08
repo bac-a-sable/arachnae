@@ -4,7 +4,7 @@ title: ARACHNAE
 email: your-email@domain.com
 description: > # this means to ignore newlines until "baseurl:"
   Un petit test de présentation de photographies agrémentées de quelques textes, au moyen du framework HTML5 Webslides.js
-baseurl: "" # the subpath of your site, e.g. /blog
+baseurl: "/arachnae" # the subpath of your site, e.g. /blog
 url: "http://www.bac-a-sable.eu" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb
 github_username:  jekyll
@@ -20,5 +20,5 @@ plugins:
 exclude:
   - Gemfile
   - Gemfile.lock
-  - -site
+  - _site
 
