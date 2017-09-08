@@ -1,5 +1,4 @@
 ---
-Arachnae
 ---
 # De la galerie photo au *Storytelling*
 
