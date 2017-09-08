@@ -17,6 +17,7 @@ collections:
 markdown: kramdown
 plugins:
   - jekyll-feed
+  - github-pages
 exclude:
   - Gemfile
   - Gemfile.lock
