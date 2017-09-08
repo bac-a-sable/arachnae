@@ -20,4 +20,5 @@ plugins:
 exclude:
   - Gemfile
   - Gemfile.lock
+  - -site
 
