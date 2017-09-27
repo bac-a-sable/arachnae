@@ -60,9 +60,10 @@
         {% endcase %}
        
             <section class="{{ vert_position }}">
+                 <span data-step-count=1></span>
                 <span class="background" style="background-image:url('{{ item.image.file }}')"></span>
                 <div class="wrap">
-                    <div class="{{ hor_position }} bg-trans-{{ item.text.background }} cartel slow" style="padding: 2.6rem;">
+                    <div class="{{ hor_position }} bg-trans-{{ item.text.background }} fadeInUp animate-show"  style="padding: 2.6rem;" data-step=1>
                         <p style="padding:0;line-height: 2.5rem; font-size: 2rem;"><b>{{ item.title }} </b><br/>
                       {{ item.sub-title }}</p>
                       {% if item.image.author %}

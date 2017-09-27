@@ -6,37 +6,33 @@ h1 {
     font-size: 4rem;
     line-height: 5.6rem;}
 
-
-/*-- cartel dérivé de fadeIn -- */
-@-webkit-keyframes cartel {
-    from {
-      opacity: 0; }
-    to {
-      opacity: 1; } }
-  @keyframes cartel {
-    0% {
-      opacity: 0;
-    }
-      
-    50% {
-      opacity: 0;
-    }
-      
-    100% {
-      opacity: 1;
-    }
+.animate-show {
+    display: none !important;
+  }
+  .animate-show.animated {
+    display: inherit !important;
   }
   
-  .cartel {
-    -webkit-animation: cartel 1s;
-            animation: cartel 1s; 
-    font-size: 0.9em;    }
+  .animate-show-visibility {
+    opacity: 0 !important;
+    visibility: hidden;
+  }
+  .animate-show-visibility.animated {
+    opacity: 1 !important;
+    visibility: visible;
+  }
   
+  .animate-hide {
+    display: inherit !important;
+  }
+  .animate-hide.animated {
+    display: none !important;
+  }
   
-  /* Duration */
-  .slow {
-    -webkit-animation-duration: 6s;
-            animation-duration: 6s; }
-  .slow + .slow {
-    -webkit-animation-duration: 8s;
-            animation-duration: 8s; }
+  .animate-hide-visibility {
+    opacity: 1 !important;
+  }
+  .animate-hide-visibility.animated {
+    opacity: 0 !important;
+  }
+  
